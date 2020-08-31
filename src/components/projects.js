@@ -15,7 +15,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://drive.google.com/file/d/1CJjfJg7GbSiGmevakzvf74zzI42GYwN-/preview) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678082-cc1a6d00-eb01-11ea-9c98-7a2f25ddc47a.png) center / cover'}} >React Project #1</CardTitle>
             <CardText>
                    Employee Directory: A application that allows a user to see their full employee directory and search by first name.
             </CardText>
@@ -30,7 +30,7 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://drive.google.com/file/d/14ZcG6YLjAZvHCOY41tOhBSuOo5pMn95Q/preview) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678128-ece2c280-eb01-11ea-9d5e-efd0fa0beb32.png) center / cover'}} >React Project #2</CardTitle>
             <CardText>
               Budget Tracker: A application that allows a user to enter in financial data to create a budget tracker whether they are online or offline.
             </CardText>
@@ -45,7 +45,7 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://drive.google.com/file/d/1IiYHON4CSp-DolkQAFho-Jrk4KMnxC67/preview) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678004-9c6b6500-eb01-11ea-9eb1-32955e5a3a0a.png) center / cover'}} >React Project #3</CardTitle>
             <CardText>
             Fitness Tracker: This application utilizes allows a User to create a exercise within a workout database, add more to that single database or create a whole new workout database with new exercises. It also features a graph that shows what workouts were completed.
             </CardText>
@@ -63,15 +63,15 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>This is Node JS</h1></div>
+        <div><h1>This is where the Node JS assignments will go</h1></div>
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is Other</h1></div>
+        <div><h1>This is where other assignments will go</h1></div>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>This is MongoDB</h1></div>
+        <div><h1>This is where MongoDB assignments will go</h1></div>
       )
     }
 

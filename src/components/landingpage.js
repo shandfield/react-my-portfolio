@@ -5,13 +5,13 @@ import { Grid, Cell } from 'react-mdl';
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100px', height: '100px'}}>
+      <div style={{width: '240', height: '240'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
               src="https://user-images.githubusercontent.com/63683598/91673607-27446380-eaf2-11ea-862a-f39516d77b7e.jpg"
-              alt="me"
-              className="me-img"
+              alt="avatar"
+              className="avatar-img"
               />
 
             <div className="banner-text">
