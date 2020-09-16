@@ -18,21 +18,20 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Shelby Handfield</h2>
             <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Extensive history of leadership skills in coaching, motivation, team building and mentoring, coupled with effective verbal and written communication skills.Demonstrated professionalism and judgment; excellent organization and prioritization skills, as well as time management skills to be able to multitask in a high volume, rapidly changing work environment • Currently seeking a full-time profession in web development.  Experienced in AJAX, HTML5, CSS3, Javascript, JQuery, Boostrap, Node JS, MongoDB/Mongoose, and React.</p>
+            <p>Full- stack web developer with an emphasis on back-end development utilizing skills gained from a psychology and criminal justice background to break into the world on the web. Recently acquired a certificate for Full Stack Web Development from the University of Denver. With flourishing skills in MVC Framework, MEAN/MERN Stack Development, API, deployment, Browser-based technologies, and Server-Side Development, to name a few. My purpose is to push myself to better my skills, knowledge, and to work with others to create experiences for users. The last project I completed, we were a team of five and we developed a React based application to help pet owners to enter in information regarding their pets, create calendar events, edit information stored, add photos and even delete data. I am ecstatic and grateful to have obtained my certificate, gained so many helpful skills thus far and to start my journey into my life-long career. I am eager to pursue more knowledge, refine and begin to grasp new skills, and to be part of a team that pushes themselves to be better every day.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
             <p>7301 E Long Ave, Centennial CO 80112</p>
             <h5>Phone</h5>
             <p>(970) 740-1523</p>
             <h5>Email</h5>
-            <p>shelby_handfield@prptonmail.com</p>
+            <p>shelby_handfield@protonmail.com</p>
             <h5>GitHub</h5>
             <p>https://github.com/shandfield</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-
 
             <Education
               startYear={2009}
@@ -44,8 +43,8 @@ class Resume extends Component {
                <Education
                  startYear={2020}
                  endYear={2020}
-                 schoolName="University of Denver- Full Stack Coding Bootcamp"
-                 schoolDescription="Started the Full Stack Coding Bootcamp in June of 2020 and graduated with a certificate in September 2020."
+                 schoolName="University of Denver- Full Stack Web Development Coding Bootcamp"
+                 schoolDescription="Recently obtained my certificate in September 2020 for successfully completing the course."
                   />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -55,14 +54,14 @@ class Resume extends Component {
               startYear={2018}
               endYear={2020}
               jobName="Social Worker/Prior Child Support Enforcement"
-              jobDescription="Part of a team of social workers; Very detailed and ethical. Strong ability to problem solves, while communicating verbally or through writing. Develop rapport with children and families; identify their needs to provide resources and ensure that court ordered child support is paid by non-custodial parents. Respond to initial reports of child and adult physical, emotional and abuse cases; investigative allegations by interviewing all family members and all potential victims. Conduct investigative fact finding and partnering with families of different ethnic and economic  backgrounds, removing the child from a dangerous environment."
+              jobDescription="Carried caseload of 20-40 initial reports of child physical, emotional and physical/sexual abuse cases: investigate allegations through interviewing all family members and all potential victims."
               />
 
               <Experience
                 startYear={2014}
                 endYear={2018}
                 jobName="District Manager; final position"
-                jobDescription="Supervised a diverse offender pool of 1500 with a staff of 25+ employees, ensuring smooth and safe operations always in the offices of Castle Rock and Centennial. Handled large caseload of offenders and reported back to court with their court ordered compliance. Selected and assigned staff, ensuring equal employment opportunity in hiring and promotion. Coordinated activities by scheduling work assignments, setting priorities, and directing work. • Identified staff development and training needs and ensured that training was delivered. Maintained records, prepares reports, and composes correspondence relative to the work.Interpreted and implemented departmental directives; kept staff informed of changes in policy. Liaised with circuit court judges, prosecutors, sheriffs, chiefs of police, friends of the court, county boards of supervisors, and others concerned with the parole and probation program. Investigated parole/probation violations, documents findings, and recommends disposition to the parole board, court officials, or other officials involved in the parole and probation revocation. Attended conferences and kept informed of developments in the corrections field."
+                jobDescription="•	Supervised a diverse offender pool of 1500 with a staff of 25+ employees, ensuring smooth and safe operations were occurring in my offices at Castle Rock and Centennial."
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
@@ -81,10 +80,8 @@ class Resume extends Component {
                     />
                     <Skills
                       skill="React"
-                      progress={25}
+                      progress={50}
                       />
-
-
           </Cell>
         </Grid>
       </div>
