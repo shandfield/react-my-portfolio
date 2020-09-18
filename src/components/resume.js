@@ -23,7 +23,7 @@ class Resume extends Component {
             <h5>Location</h5>
             <p>Centennial CO 80112</p>
             <h5>Phone</h5>
-            <p>(970) 740-1523</p>
+            <p>(970) 744-9203</p>
             <h5>Email</h5>
             <p>shelby_handfield@protonmail.com</p>
             <h5> GitHub</h5>
