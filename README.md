@@ -1,5 +1,4 @@
 My-React-Porfolio
-
 ![React-Portfolio Demo](https://i.imgur.com/wiuCJqi.gif)
 Description: A living portfolio made with React. It is a better model then the first one I created with HTML and CSS only. It is a living project, as I am continuing to work and improve it. I plan to continue to work on the cards in the project section and look at each assignment I have completed and break them down into their proper sections. 
 
@@ -31,8 +30,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Contribution:${answers.contribution} 
+Contribution:
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+https://github.com/sheelah/react-form-submission-demo for assistance with emailjs connection/functionality. 
 
 Tests: Currently under costruction! Please check back.
 

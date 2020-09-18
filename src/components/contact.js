@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { Link } from 'react-router-dom';
+
 
 
 class Contact extends Component {
@@ -32,26 +34,32 @@ class Contact extends Component {
 
                <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
+                  <Link to= "/contactus" onClick= {this.handleClick}>
+                    <i className="fa fa-envelope" aria-hidden="true"></i>
+                  </Link>
                     shelby_handfield@protonmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                  <i className="fa fa-github" aria-hidden="true"></i>
-                  https://github.com/shandfield
-                  </ListItemContent>
+                  <a href= "https://github.com/shandfield">
+                    <i className="fa fa-github" aria-hidden="true"></i>
+                      Click to connect to My Github
+                  </a>
+                  
+                 </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                  <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                  https://www.linkedin.com/in/shelby-handfield-87ba6810b/
+                  <a href= "https://www.linkedin.com/in/shelby-handfield-87ba6810b/">
+                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                    Click to connect to My LinkedIn
+                  </a>
+                  
                   </ListItemContent>
                 </ListItem>
-
-
               </List>
             </div>
           </Cell>
