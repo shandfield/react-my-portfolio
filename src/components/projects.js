@@ -148,7 +148,7 @@ class Projects extends Component {
         <div className="projects-grid">
          {/* Group 1 */}
          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/93365864-91098080-f807-11ea-98a0-33023e8219e4.png) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/AHQ4ZNv.gif) center / cover'}}></CardTitle>
             <CardText>
                    Pet Array: Created an application that allows pet owners to log in/log out to save their data, to enter in their pet’s name, date of birth, and notes about their pet. There is also a calendar to add important events regarding their pet(s). Worked in a team of five, and I was part of a team of two that worked mostly on the back-end development. I also focused on the API, the routes, and setting up the calendar functionality. Tools / languages used were React, mongoose, MongoDB, Express, ReactStrap, CSS, JavaScript, HTML, and Authentication.
             </CardText>
