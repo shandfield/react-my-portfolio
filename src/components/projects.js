@@ -54,7 +54,7 @@ class Projects extends Component {
             Employee Directory:This project was created with Random User Generator API to create a list of employees that would allow the user to search for certain employees based on name. It also allows a user to sort the list from the toggle buttons in the column. Lead and only developer. Tools / languages used were the Create React app, React based coding, use of integrating API’s with routes, HTML and CSS. 
             </CardText>
             <CardActions border>
-            <Button href="https://still-citadel-37848.herokuapp.com/">Heroku</Button>
+            <Button href="https://shandfield-employee-directory.herokuapp.com/">Heroku</Button>
             <Button href ="https://github.com/shandfield/employee-directory">Github Link</Button> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
