@@ -47,11 +47,11 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
-         {/* MEAN 1 */}
-         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678082-cc1a6d00-eb01-11ea-9c98-7a2f25ddc47a.png) center / cover'}} >Portfolio Project #</CardTitle>
+        {/* MEAN/MERN 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/Ii9AqvH.gif) center / cover'}} ></CardTitle>
             <CardText>
-                   Employee Directory: A application that allows a user to see their full employee directory and search by first name.
+            Employee Directory:This project was created with Random User Generator API to create a list of employees that would allow the user to search for certain employees based on name. It also allows a user to sort the list from the toggle buttons in the column. Lead and only developer. Tools / languages used were the Create React app, React based coding, use of integrating API’s with routes, HTML and CSS. 
             </CardText>
             <CardActions border>
             <Button href="https://still-citadel-37848.herokuapp.com/">Heroku</Button>
@@ -61,12 +61,11 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
-          {/* MEAN 2 */}
+          {/* MEAN/MERN 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678128-ece2c280-eb01-11ea-9d5e-efd0fa0beb32.png) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/KZEm4Mu.gif) center / cover'}} >React Project #2</CardTitle>
             <CardText>
-              Budget Tracker: A application that allows a user to enter in financial data to create a budget tracker whether they are online or offline.
+              Budget Tracker: This program gives the User an input field to give a name to the transaction and to enter in the amount. Then there are two buttons that allow the User to select add or subtract from budget. Lead and only developer. Tools / languages used were node.js, MongoDB, mongoose, express, service worker for online/offline capability, logger, compression, Heroku for deployment, HTML, CSS, and JavaScript. 
             </CardText>
             <CardActions border>
             <Button href="https://dry-castle-35930.herokuapp.com/">Heroku</Button>
@@ -76,12 +75,11 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
-          {/* MEAN 3 */}
+          {/* MEAN/MERN 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678004-9c6b6500-eb01-11ea-9eb1-32955e5a3a0a.png) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/h7KxEdu.gif) center / cover'}} >React Project #3</CardTitle>
             <CardText>
-            Fitness Tracker: This application utilizes allows a User to create a exercise within a workout database, add more to that single database or create a whole new workout database with new exercises. It also features a graph that shows what workouts were completed.
+            Fitness Tracker: This project allows a user to enter in workout data that is either cardio or weights, pending the exercise type it will collect certain information from the user. The user can then save this information to the current workout DB or pick to create a new workout DB with new data. This data is stored and shown in a graph for the user to see their workout progress. Lead and only developer. Tools / languages used were Heroku for deployment, mongoose, MongoDB, express, logger, and JavaScript. 
             </CardText>
             <CardActions border>
               <Button href="https://pure-beach-44477.herokuapp.com/">Heroku</Button>
@@ -91,51 +89,65 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+           {/* MEAN/MERN 4 */}
+         {/* <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url() center / cover'}}></CardTitle>
+            <CardText>
+                   New project info here
+            </CardText>
+            <CardActions border>
+            <Button href="">Heroku</Button>
+            <Button href ="">Github Link</Button> 
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card> */}
         </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
         <div className="projects-grid">
-         {/* MERN 1 */}
+         {/* Express, JSON, MySQL, and Node 1 */}
          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678082-cc1a6d00-eb01-11ea-9c98-7a2f25ddc47a.png) center / cover'}} ></CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/emjXOHF.gif) center / cover'}} ></CardTitle>
             <CardText>
-            This project was created with Random User Generator API to create a list of employees that would allow the user to search for certain employees based on name. It also allows a user to sort the list from the toggle buttons in the column. Lead and only developer. Tools / languages used were the Create React app, React based coding, use of integrating API’s with routes, HTML and CSS. 
-
+            Note Taker:This application allows a user to create notes with a title and text, then it will let the user delete any of the entries and edit them. Lead and only developer.Tools / languages used were HTML, CSS, Express, MySQL, and JSON. 
             </CardText>
             <CardActions border>
-            <Button href="https://still-citadel-37848.herokuapp.com/">Heroku</Button>
-            <Button href ="https://github.com/shandfield/employee-directory">Github Link</Button> 
+            <Button href="https://mighty-atoll-09944.herokuapp.com/ ">Heroku</Button>
+            <Button href ="https://github.com/shandfield/note-taker">Github Link</Button> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          {/* MERN 2 */}
+          {/* Express, JSON, MySQL, and Node 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678128-ece2c280-eb01-11ea-9d5e-efd0fa0beb32.png) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url() center / cover'}}></CardTitle>
             <CardText>
-              Budget Tracker: A application that allows a user to enter in financial data to create a budget tracker whether they are online or offline.
+              Burger Logger: This project allows a user to create a burger, then decide if they want to devour the burger at that time or if they want to eat it later. It is broken down into devoured and not eaten burgers yet, and the user can also delete entries. Lead and only developer. Tools / languages used Heroku for deployment, handlebars, express and MySQL. 
+
             </CardText>
             <CardActions border>
-            <Button href="https://dry-castle-35930.herokuapp.com/">Heroku</Button>
-            <Button href ="https://github.com/shandfield/Budget-Tracker">Github Link</Button> 
+            <Button href="https://evening-sea-88880.herokuapp.com/ ">Heroku</Button>
+            <Button href ="https://github.com/shandfield/Burger--Logging">Github Link</Button> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          {/* MERN 3 */}
+          {/* Express, JSON, MySQL, and Node 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/91678004-9c6b6500-eb01-11ea-9eb1-32955e5a3a0a.png) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url() center / cover'}}></CardTitle>
             <CardText>
-            Fitness Tracker: This application utilizes allows a User to create a exercise within a workout database, add more to that single database or create a whole new workout database with new exercises. It also features a graph that shows what workouts were completed.
+            Employee Tracker: This project is initiated through the terminal, to create a directory for employees. It runs via npm start and prompts a userMenu asking if they want to Create, View, Update and Exit. Lead and only developer. Tools / languages used were HTML, MySQL, and Node modules. 
             </CardText>
             <CardActions border>
-              <Button href="https://pure-beach-44477.herokuapp.com/">Heroku</Button>
-              <Button href ="https://github.com/shandfield/fitness-tracker">Github Link</Button> 
+              <Button href="https://drive.google.com/file/d/1vVHGysR2Q78DLTxZKJHF1WGmFW55If5j/view ">Demo Video</Button>
+              <Button href ="https://github.com/shandfield/Employee-Tracker/">Github Link</Button> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -186,8 +198,8 @@ class Projects extends Component {
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>Portfolios</Tab>
-          <Tab>MEAN</Tab>
-          <Tab>MERN</Tab>
+          <Tab>MEAN/MERN</Tab>
+          <Tab>Express, JSON, MySQL, and Node</Tab>
           <Tab>Group Collaborations</Tab>
         </Tabs>
 
