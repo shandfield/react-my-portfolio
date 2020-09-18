@@ -6,10 +6,10 @@ import registerServiceWorker from './registerServiceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
-
+import {env} from "./config"
 ReactDOM.render(
   <BrowserRouter>
-<App />
+<App env={env}/>
   </BrowserRouter>
   , document.getElementById('root'));
 registerServiceWorker();
