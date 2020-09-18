@@ -1,17 +1,23 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
+
+
 export default function ContactUs() {
-
+  
   function sendEmail(e) {
-    e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+    e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_3onb4i2', e.target, 'user_jWXUTA12cWfjMC0hSRjuB')
-      .then((result) => {
-          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+    const template = process.env.REACT_APP_EMAILJS_TEMPLATEID;
+    const user= process.env.REACT_APP_EMAILJS_USERID;
+    
+  emailjs.sendForm('gmail', template, e.target, user)
+        .then((result) => {
+          window.location.reload()  
       }, (error) => {
           console.log(error.text);
       });
+     
   }
 
   return (
@@ -27,3 +33,6 @@ export default function ContactUs() {
     </form>
   );
 }
+// ContactUs.propTypes = {
+//   env: PropTypes.object.isRequired
+// };
