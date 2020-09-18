@@ -2,7 +2,7 @@ My-React-Porfolio
 ![React-Portfolio Demo](https://i.imgur.com/wiuCJqi.gif)
 Description: A living portfolio made with React. It is a better model then the first one I created with HTML and CSS only. It is a living project, as I am continuing to work and improve it. I plan to continue to work on the cards in the project section and look at each assignment I have completed and break them down into their proper sections. 
 
-Heroku deploy link:https://boiling-sea-17525.herokuapp.com/
+Heroku deploy link:https://react-shandfield-portfolio.herokuapp.com/
 
 Github link: https://github.com/shandfield/react-my-portfolio
 
