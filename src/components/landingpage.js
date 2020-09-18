@@ -1,17 +1,18 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
 
 
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '240', height: '240'}}>
+      <div style={{width: "auto", height: "auto"}}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://user-images.githubusercontent.com/63683598/91673607-27446380-eaf2-11ea-862a-f39516d77b7e.jpg"
+              src="https://user-images.githubusercontent.com/63683598/93647435-a6c4a480-f9c5-11ea-8160-273b60ec6035.jpg"
               alt="avatar"
               className="avatar-img"
+              style={{width: "175px", height: "auto", padding: 0,}}
               />
 
             <div className="banner-text">
