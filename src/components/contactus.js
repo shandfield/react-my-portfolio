@@ -1,5 +1,5 @@
-import React from 'react';
-import emailjs from 'emailjs-com';
+import React from "react";
+import emailjs from "emailjs-com";
 
 
 
@@ -11,7 +11,7 @@ export default function ContactUs() {
     const template = process.env.REACT_APP_EMAILJS_TEMPLATEID;
     const user= process.env.REACT_APP_EMAILJS_USERID;
     
-  emailjs.sendForm('gmail', template, e.target, user)
+  emailjs.sendForm("gmail", template, e.target, user)
         .then((result) => {
           window.location.reload()  
       }, (error) => {
@@ -28,11 +28,9 @@ export default function ContactUs() {
       <label>Email</label>
       <input type="email" name="from_email" />
       <label>Message</label>
-      <textarea name="message_html" />
+      <textarea name="message_html"/>
+      <label></label>
       <input type="submit" value="Send" />
     </form>
   );
 }
-// ContactUs.propTypes = {
-//   env: PropTypes.object.isRequired
-// };
