@@ -63,15 +63,15 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>This is where the Node JS assignments will go</h1></div>
+        <div><h1>MEAN Projects</h1></div>
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is where other assignments will go</h1></div>
+        <div><h1>MEARN Projects</h1></div>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>This is where MongoDB assignments will go</h1></div>
+        <div><h1>Group Projects</h1></div>
       )
     }
 
