@@ -68,7 +68,7 @@ class Projects extends Component {
               Budget Tracker: This program gives the User an input field to give a name to the transaction and to enter in the amount. Then there are two buttons that allow the User to select add or subtract from budget. Lead and only developer. Tools / languages used were node.js, MongoDB, mongoose, express, service worker for online/offline capability, logger, compression, Heroku for deployment, HTML, CSS, and JavaScript. 
             </CardText>
             <CardActions border>
-            <Button href="https://dry-castle-35930.herokuapp.com/">Heroku</Button>
+            <Button href="https://shandfield-budget-tracker.herokuapp.com/">Heroku</Button>
             <Button href ="https://github.com/shandfield/Budget-Tracker">Github Link</Button> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -82,7 +82,7 @@ class Projects extends Component {
             Fitness Tracker: This project allows a user to enter in workout data that is either cardio or weights, pending the exercise type it will collect certain information from the user. The user can then save this information to the current workout DB or pick to create a new workout DB with new data. This data is stored and shown in a graph for the user to see their workout progress. Lead and only developer. Tools / languages used were Heroku for deployment, mongoose, MongoDB, express, logger, and JavaScript. 
             </CardText>
             <CardActions border>
-              <Button href="https://pure-beach-44477.herokuapp.com/">Heroku</Button>
+              <Button href="https://shandfield-fitness-tracker.herokuapp.com/">Heroku</Button>
               <Button href ="https://github.com/shandfield/fitness-tracker">Github Link</Button> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -115,7 +115,7 @@ class Projects extends Component {
             Note Taker:This application allows a user to create notes with a title and text, then it will let the user delete any of the entries and edit them. Lead and only developer.Tools / languages used were HTML, CSS, Express, MySQL, and JSON. 
             </CardText>
             <CardActions border>
-            <Button href="https://mighty-atoll-09944.herokuapp.com/ ">Heroku</Button>
+            <Button href="https://shandfield-note-taker.herokuapp.com/">Heroku</Button>
             <Button href ="https://github.com/shandfield/note-taker">Github Link</Button> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -130,7 +130,7 @@ class Projects extends Component {
               Burger Logger: This project allows a user to create a burger, then decide if they want to devour the burger at that time or if they want to eat it later. It is broken down into devoured and not eaten burgers yet, and the user can also delete entries. Lead and only developer. Tools / languages used Heroku for deployment, handlebars, express and MySQL. 
             </CardText>
             <CardActions border>
-            <Button href="https://fierce-mesa-26542.herokuapp.com/">Heroku</Button>
+            <Button href="https://shandfield-burger-logging.herokuapp.com/">Heroku</Button>
             <Button href ="https://github.com/shandfield/Burger--Logging">Github Link</Button> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
