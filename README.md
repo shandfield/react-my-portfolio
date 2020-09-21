@@ -1,4 +1,4 @@
-#My-React-Porfolio
+# My-React-Porfolio
 ![React-Portfolio Demo](https://i.imgur.com/FRx4zPN.gif)
 
 ## Description:
