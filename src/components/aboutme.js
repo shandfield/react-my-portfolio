@@ -25,11 +25,10 @@ class About extends Component {
               alt="blueeyes"
               style={{height: "250px"}}
                />
-            
-
           </Cell>
-    </div>
-    
+        </Grid>
+      </div>
+    </div>    
     )
   }
 }
