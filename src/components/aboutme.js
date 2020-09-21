@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Cell } from "react-mdl";
+
 class About extends Component {
   render() {
     return(
