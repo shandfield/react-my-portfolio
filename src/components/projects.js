@@ -30,7 +30,7 @@ class Projects extends Component {
 
           {/* Portfolio 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '140px', background: 'url(https://i.imgur.com/wiuCJqi.gif) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '140px', background: 'url(https://i.imgur.com/FRx4zPN.gif) center / cover'}}></CardTitle>
             <CardText>
               React Portfolio: This is my living portfolio, based on my first portfolio that was more heavily JavaScript coded. I changed my portfolio into a React based application. It allows a user to see my bio, projects, education/resume information, and contact information.  Lead and only developer. Tools / languages used were the Create React app and React based coding, along with HTML, CSS/Bootstrap React for the styling. 
             </CardText>
