@@ -33,7 +33,8 @@ SOFTWARE.
 Contribution:
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 https://github.com/sheelah/react-form-submission-demo for assistance with emailjs connection/functionality. 
+https://github.com/paulhanna1933/react-portfolio for assistance with how to effectively build a professional React app based portfolio. 
 
-Tests: Currently under costruction! Please check back.
+Tests: Currently under construction! Please check back.
 
 Questions: If you have any questions please reach out to me via my GitHub, https://github.com/shandfield.
