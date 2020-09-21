@@ -12,7 +12,12 @@ class Landing extends Component {
               src="https://user-images.githubusercontent.com/63683598/93795629-e3c3ad80-fbf6-11ea-898f-1e1dd01ca1c9.JPG"
               alt="avatar"
               className="avatar-img"
-              style={{width: "175px", height: "auto", padding: 0,}}
+              style={{width: "300px", height: "auto", padding: 0,
+              borderBottomLeftRadius: 30,
+              borderBottomRightRadius: 15,
+              borderTopRightRadius: 30,
+              borderTopLeftRadius: 15,
+              overflow: 'hidden'}}
               />
 
             <div className="banner-text">
