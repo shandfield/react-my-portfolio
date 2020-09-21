@@ -26,7 +26,13 @@ class Resume extends Component {
             <p style={{fontFamily: "Poppins"}}>(970) 744-9203</p>
             <h5 style={{fontFamily: "Poppins"}}>Email</h5>
             <p style={{fontFamily: "Poppins"}}>shelby_handfield@protonmail.com</p>
-            <h5 style={{fontFamily: "Poppins"}}> GitHub</h5>
+            <h5 style={{fontFamily: "Poppins"}}>Typed Resume</h5>
+            <button type= "button" style={{fontFamily: "Poppins"}} onClick= {(e) =>{
+              e.preventDefault();
+              window.location.href= "https://1drv.ms/w/s!Aryy98TVcR5tp0UVPMD0MjPOo9P0?e=sBFNqA"
+            }}
+            >Resume Re-Direct</button>
+           <h5 style={{fontFamily: "Poppins"}}> GitHub</h5>
             <button type= "button" style={{fontFamily: "Poppins"}} onClick= {(e) =>{
               e.preventDefault();
               window.location.href= "https://github.com/shandfield"
