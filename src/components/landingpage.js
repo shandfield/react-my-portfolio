@@ -9,7 +9,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://user-images.githubusercontent.com/63683598/93647435-a6c4a480-f9c5-11ea-8160-273b60ec6035.jpg"
+              src="https://user-images.githubusercontent.com/63683598/93795629-e3c3ad80-fbf6-11ea-898f-1e1dd01ca1c9.JPG"
               alt="avatar"
               className="avatar-img"
               style={{width: "175px", height: "auto", padding: 0,}}
