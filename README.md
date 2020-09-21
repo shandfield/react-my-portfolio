@@ -68,7 +68,7 @@ https://github.com/sheelah/react-form-submission-demo for assistance with emailj
 https://github.com/paulhanna1933/react-portfolio for assistance with how to effectively build a professional React app based portfolio. 
 
 ## Status: 
-I plan to continue to develop this portfolio as time continues. As I create more projects and gain more experience, I will be updating the appropiate sections. 
+I plan to continue to develop this portfolio as time continues. As I create more projects and gain more experience, I will be updating the appropriate  sections. 
 
 ## Questions: 
 If you have any questions please reach out to me via my GitHub, https://github.com/shandfield.
