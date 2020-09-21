@@ -14,7 +14,12 @@ class Contact extends Component {
             <img
               src="https://user-images.githubusercontent.com/63683598/87608932-680d2800-c6be-11ea-8cc1-b07f0937e549.jpg"
               alt="headshot"
-              style={{height: "250px"}}
+              style={{height: "250px",
+              borderBottomLeftRadius: 30,
+              borderBottomRightRadius: 15,
+              borderTopRightRadius: 30,
+              borderTopLeftRadius: 15,
+              overflow: 'hidden'}}
                />
              <p style={{ width: "75%", margin: "auto", paddingTop: "1em"}}>Please feel free to contact me via telephone, email, LinkedIn, or Github.</p>
 
@@ -26,7 +31,7 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: "30px", fontFamily: "Poppins", textAlign: "center"}}>
-                    <i className="fa fa-phone-square" aria-hidden="true"/>
+                    <i className="fa fa-phone-square" aria-hidden="true" style={{color:"#29e2c4"}}/>
                     (970) 744-9203
                   </ListItemContent>
                 </ListItem>
