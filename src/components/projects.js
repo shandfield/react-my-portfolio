@@ -51,7 +51,7 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '100px', background: 'url(https://i.imgur.com/Ii9AqvH.gif) center / cover'}} ></CardTitle>
             <CardText>
-            Employee Directory:This project was created with Random User Generator API to create a list of employees that would allow the user to search for certain employees based on name. It also allows a user to sort the list from the toggle buttons in the column. Lead and only developer. Tools / languages used were the Create React app, React based coding, use of integrating API’s with routes, HTML and CSS. 
+            Employee Directory:This project was created with Random User Generator API to create a list of employees that would allow the user to search for certain employees based on name. Future development will also allow the user to sort the list from the toggle buttons in the column. Lead and only developer. Tools / languages used were the Create React app, React, react-dom, axios, react-scripts and an API for a random user generator, Bootstrap, HTML and CSS. 
             </CardText>
             <CardActions border>
             <Button href="https://shandfield-employee-directory.herokuapp.com/">Heroku</Button>
