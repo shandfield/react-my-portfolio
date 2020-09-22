@@ -125,9 +125,9 @@ class Projects extends Component {
 
           {/* Express, JSON, MySQL, and Node 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/D06pZ5e.gif) center / cover'}}></CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/57U3ljp.gif) center / cover'}}></CardTitle>
             <CardText>
-              Burger Logger: This project allows a user to create a burger, then decide if they want to devour the burger at that time or if they want to eat it later. It is broken down into devoured and not eaten burgers yet, and the user can also delete entries. Lead and only developer. Tools / languages used Heroku for deployment, handlebars, express and MySQL. 
+              Burger Logging: This project allows a user to create a burger, then decide if they want to devour the burger at that time or if they want to eat it later. It is broken down into devoured and not eaten burgers yet, and the user can also delete entries. Lead and only developer. Tools / languages used Heroku for deployment, handlebars, express and MySQL. 
             </CardText>
             <CardActions border>
             <Button href="https://shandfield-burger-logging.herokuapp.com/">Heroku</Button>
