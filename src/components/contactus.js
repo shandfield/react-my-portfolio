@@ -1,8 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
 
-require('dotenv').config();
-
 export default function ContactUs() {
   
     
