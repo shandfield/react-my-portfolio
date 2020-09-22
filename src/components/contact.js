@@ -21,7 +21,7 @@ class Contact extends Component {
               borderTopLeftRadius: 15,
               overflow: 'hidden'}}
                />
-             <p style={{ width: "75%", margin: "auto", paddingTop: "1em"}}>Please feel free to contact me via telephone, email, LinkedIn, or Github.</p>
+             <p style={{ width: "75%", margin: "auto", paddingTop: "1em"}}>I am available via telephone, email, LinkedIn, or Github.</p>
 
           </Cell>
           <Cell col={6}>
@@ -41,7 +41,7 @@ class Contact extends Component {
                   <Link to="/contactus" onClick= {this.handleClick}>
                     <i className="fa fa-envelope" aria-hidden="true" style={{color:"#29e2c4"}}/>
                   </Link>
-                    Click to Send Me an Email
+                    Press the envelope to send a direct message.
                   </ListItemContent>
                 </ListItem>
 
