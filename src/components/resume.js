@@ -54,14 +54,14 @@ class Resume extends Component {
               startYear={2009}
               endYear={2013}
               schoolName="Colorado State University (CSU)"
-              schoolDescription="In 2013 I obtained my diploma with a Major in Psychology and Minor in Criminology/Criminal Justice."
+              schoolDescription="Presidential Scholarship Recipient earning a Bachelor’s degree with a Major in Psychology and Minor in Criminology/Criminal Justice"
                />
 
                <Education
                  startYear={2020}
                  endYear={2020}
-                 schoolName="University of Denver- Full Stack Web Development Coding Bootcamp"
-                 schoolDescription="Recently obtained my certificate in September 2020."
+                 schoolName="University of Denver- Full Stack Web Development Certificate"
+                 schoolDescription="An intensive 12- week “bootcamp” that focused on Full Stack Web Development. Skills learned consisted of HTML, CSS, JavaScript, jQuery, MongoDB, MEAN/MERN, Node JS and API’s."
                   />
                 <hr style={{borderTop: "3px solid #29e2c4"}} />
 
@@ -70,15 +70,16 @@ class Resume extends Component {
             <Experience
               startYear={2018}
               endYear={2020}
-              jobName="Social Worker"
-              jobDescription="As a Social Worker, I carried a caseload of 20-40 initial reports of either child physical, emotional and physical or sexual abuse. My role was to investigate the allegations through interviewing all family members and all potential victims. Prior to transferring, my previous role was a Child Support Enforcer. Handled a case load with families to enforce collections of payment, and maintained a 80-90% collection rate."
+              jobName="Social Worker/Child Support Enforcement"
+              jobDescription="
+              •	As a licensed Social Worker, I carried a caseload of 20-40 initial reports of either child physical, emotional, and physical or sexual abuse. I consulted with family members and potential victims to investigate the allegations. Prior to transferring, my previous role was a Child Support Enforcer. I enforced collections of payments and maintained a 80-90% collection rate."
               />
 
               <Experience
                 startYear={2014}
                 endYear={2018}
-                jobName="District Manager"
-                jobDescription="Supervised a diverse offender pool of about 1,500 and two offices that of about 25+ employees. I ensured smooth and safe operations were being followed in both offices at Castle Rock and Centennial. From 2014 to 2016, worked as a Case Manager that worked with offenders to ensure compliance and payments were made. During 2016-2018, promoted to Assistant District Manager, and supervised 7 Case Managers while maintaining a case load of offenders as well. As a manager, ensured that case managers were trained properly, doing their daily jobs correctly and reviewing reports to ensure accuracy and integrity."
+                jobName="District Manager/Assistant District Manager/Case Worker "
+                jobDescription="I supervised a diverse offender pool of about 1,500 and two offices that of about 25+ employees. I facilitated and monitored smooth and safe operations, and continued to train, mentor and foster a hard-working environment. During 2016-2018, I earned an Assistant District Manager (ADM) position and guided 7 Case Managers while regulating a case load of offenders as well. As an ADM, I trained and mentored case managers, and fostered a hard-working environment. From 2014 to 2016, I worked as a Case Manager that interacted with offenders to maximize compliance."
                 />
               <hr style={{borderTop: "3px solid #29e2c4"}} />
             </Cell>
