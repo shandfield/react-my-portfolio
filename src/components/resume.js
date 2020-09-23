@@ -18,7 +18,8 @@ class Resume extends Component {
             <h2 style={{fontFamily: "Poppins"}}>Shelby Handfield</h2>
             <h4 style={{color: "grey",fontFamily: "Poppins"}}>Full Stack Web Developer</h4>
             <hr style={{borderTop: "3px solid #833fb2", width: "50%"}}/>
-            <p style={{fontFamily: "Poppins"}}>Full- stack web developer with an emphasis on back-end development utilizing skills gained from a psychology and criminal justice background to break into the world on the web. Recently acquired a certificate for Full Stack Web Development from the University of Denver. With flourishing skills in MVC Framework, MEAN/MERN Stack Development, API, deployment, Browser-based technologies, and Server-Side Development, to name a few. My purpose is to push myself to better my skills, knowledge, and to work with others to create experiences for users. The last project I completed, we were a team of five and we developed a React based application to help pet owners to enter in information regarding their pets, create calendar events, edit information stored, add photos and even delete data. I am ecstatic and grateful to have obtained my certificate, gained so many helpful skills thus far and to start my journey into my life-long career. I am eager to pursue more knowledge, refine and begin to grasp new skills, and to be part of a team that pushes themselves to be better every day.</p>
+            <p style={{fontFamily: "Poppins"}}>Full Stack Web Developer with an emphasis on back-end development utilizing skills gained from a formal college graduate degree in psychology and criminal justice to break into the world on the web. In September 2020, I obtained a certificate in Full Stack Web Development from the University of Denver. In this program, I acquired advanced training and skills in MVC Framework, MEAN/MERN Stack Development, API, deployment, Browser-based technologies, and Server-Side Development, to name a few. As a self-motivated quick learner my goal is to push myself towards higher skill sets, increase my specific knowledge and to work optimally as an individual and within a team environment. I am proud to have completed this program and thankful to have gained so many valuable skills in my new chosen life-long career. I am eager to pursue more knowledge, refine and begin to grasp new skills, and to be part of a team that pushes themselves to be better every day.
+            </p>
             <hr style={{borderTop: "3px solid #833fb2", width: "50%"}}/>
             <h5 style={{fontFamily: "Poppins"}}>Location</h5>
             <p style={{fontFamily: "Poppins"}}>Centennial CO 80112</p>
@@ -29,7 +30,7 @@ class Resume extends Component {
             <h5 style={{fontFamily: "Poppins"}}>Typed Resume</h5>
             <button type= "button" style={{fontFamily: "Poppins"}} onClick= {(e) =>{
               e.preventDefault();
-              window.location.href= "https://1drv.ms/w/s!Aryy98TVcR5tp0UVPMD0MjPOo9P0?e=sBFNqA"
+              window.location.href= "https://1drv.ms/w/s!Aryy98TVcR5tp0UVPMD0MjPOo9P0?e=kXE8YH"
             }}
             >Resume Re-Direct</button>
            <h5 style={{fontFamily: "Poppins"}}> GitHub</h5>
