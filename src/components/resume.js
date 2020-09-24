@@ -30,7 +30,7 @@ class Resume extends Component {
             <h5 style={{fontFamily: "Poppins"}}>Typed Resume</h5>
             <button type= "button" style={{fontFamily: "Poppins"}} onClick= {(e) =>{
               e.preventDefault();
-              window.location.href= "https://1drv.ms/w/s!Aryy98TVcR5tp0UVPMD0MjPOo9P0?e=kXE8YH"
+              window.location.href= "https://1drv.ms/w/s!Aryy98TVcR5tp0UVPMD0MjPOo9P0?e=1HvMPf"
             }}
             >Resume Re-Direct</button>
            <h5 style={{fontFamily: "Poppins"}}> GitHub</h5>
@@ -71,8 +71,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2020}
               jobName="Social Worker/Child Support Enforcement"
-              jobDescription="
-              •	As a licensed Social Worker, I carried a caseload of 20-40 initial reports of either child physical, emotional, and physical or sexual abuse. I consulted with family members and potential victims to investigate the allegations. Prior to transferring, my previous role was a Child Support Enforcer. I enforced collections of payments and maintained a 80-90% collection rate."
+              jobDescription="As a licensed Social Worker, I carried a caseload of 20-40 initial reports of either child physical, emotional, and physical or sexual abuse. I consulted with family members and potential victims to investigate the allegations. Prior to transferring, my previous role was a Child Support Enforcer. I enforced collections of payments and maintained a 80-90% collection rate."
               />
 
               <Experience
