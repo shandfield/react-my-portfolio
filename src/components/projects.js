@@ -17,7 +17,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/63683598/87609679-6cd2db80-c6c0-11ea-9dca-663b5df73b68.png) center / cover'}}></CardTitle>
             <CardText>
-                   HTML Portfolio: Allows users to learn about my projects, how to contact me, and a short bio. This was created during the first few weeks of the program. Tools / languages used were HTML, CSS, and Bootstrap
+                   HTML Portfolio: This was created during the first few weeks of the program to learn HTML and CSS. Tools / languages used were HTML, CSS, and Bootstrap
             </CardText>
             <CardActions border>
             <Button href="https://shandfield.github.io/shelby-handfield-portfolio/ ">Depoly Link</Button>
