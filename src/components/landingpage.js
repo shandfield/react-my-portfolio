@@ -38,7 +38,7 @@ class Landing extends Component {
           </a>
 
            {/* Resume */}
-           <a href="https://1drv.ms/w/s!Aryy98TVcR5tp0UVPMD0MjPOo9P0?e=EQzKXC" rel="noopener noreferrer" target="_blank">
+           <a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:172c8d36-cb2b-446f-8e73-4a769fa1c6a3" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-file-text" aria-hidden="true" />
           </a>
 
