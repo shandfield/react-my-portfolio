@@ -41,7 +41,7 @@ class Contact extends Component {
                   <Link to="/contactus" onClick= {this.handleClick}>
                     <i className="fa fa-envelope" aria-hidden="true" style={{color:"#29e2c4"}}/>
                   </Link>
-                    Press the envelope to send a direct message.
+                    shelby_handfield@protonmail.com
                   </ListItemContent>
                 </ListItem>
 
